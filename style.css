@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+ul{
+    list-style: none;
+}
+
+
+
+.naver_menu , .daum_menu{
+    display: flex;
+    gap: 1rem;
+}
+
+.daum_menu li a { /* 후손 선택자*/
+    display: flex;
+    width: 150px; /*너비 주기 */
+    height: 68px;
+    justify-content: center; /*주축 가운데 정렬 */
+    align-items: center; /* 교차축에 가운데 정렬 */
+    text-decoration: none; /*텍스트-꾸밈 : 없음*/
+    color: black;
+    gap : 10px;
+    background-color: beige;
+    border-radius: 10px; /*테두리 경계 (둥글게) : 10px 만큼*/
+}
+
+.daum_menu li img { /* 후손 선택자*/
+    width: 48px;
+    height: 48px;
+}
+
+
+
+
+
+
+
+
