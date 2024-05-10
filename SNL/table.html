@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table 태그</title>
+    <style>
+        table ,th, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th,td{
+            width: 150px;
+            padding: 20px 0;
+        }
+
+        td{
+            text-align: center;
+        }
+
+        #time_tbl{
+            margin : 0 auto;
+            width: 1000px;
+        }
+        summary{
+            display: none;
+        }
+
+        .bg_pink{ /* kebab_case vs camelCase */
+            background-color: pink;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>표 태그</h1>
+    <table id="time_tbl">
+        <caption>302호 개발자과정 시간표</caption>
+        <summary>한울직업전문학교 개발자과정, 스마트IoT 개발자 양성(302호)강의실의 일</summary>
+        <tr>
+            <th>요일<br>시간</th>
+            <th>월요일</th>
+            <th>화요일</th>
+            <th>수요일</th>
+            <th>목요일</th>
+            <th>금요일</th>
+            <th>비고</th>
+        </tr>
+        
+        <tr>
+            <td>1교시</td>
+            <td>화면설계 및 구현</td>
+            <td>화면설계 및 구현</td>
+            <td>화면설계 및 구현</td>
+            <td>화면설계 및 구현</td>
+            <td>화면설계 및 구현</td>
+            <td>화면설계 및 구현</td>
+        </tr>
+        <tr>
+            <td>2교시</td>
+            <td>화면설계 및 구현</td>
+            <td>화면설계 및 구현</td>
+            <td>화면설계 및 구현</td>
+            <td>화면설계 및 구현</td>
+            <td>화면설계 및 구현</td>
+            <td>화면설계 및 구현</td>
+        </tr>
+        <tr>
+            <td>3교시</td>
+            <td>화면설계 및 구현</td>
+            <td>화면설계 및 구현</td>
+            <td>화면설계 및 구현</td>
+            <td>화면설계 및 구현</td>
+            <td>화면설계 및 구현</td>
+            <td>화면설계 및 구현</td>
+        </tr>
+        <tr>
+            <td>4교시</td>
+            <td>화면설계 및 구현</td>
+            <td>화면설계 및 구현</td>
+            <td>화면설계 및 구현</td>
+            <td>화면설계 및 구현</td>
+            <td>화면설계 및 구현</td>
+            <td>화면설계 및 구현</td>
+        </tr>
+        <tr>
+            <td>점심</td>
+            <td class="bg_pink">자유시간</td>
+            <td>자유시간</td>
+            <td class="bg_pink">자유시간</td>
+            <td>자유시간</td>
+            <td class="bg_pink">자유시간</td>
+            <td>자유시간</td>
+        </tr>
+        <tr>
+            <td>5교시</td>
+            <td>Java 프로그래밍</td>
+            <td>Java 프로그래밍</td>
+            <td>Java 프로그래밍</td>
+            <td>Java 프로그래밍</td>
+            <td>Java 프로그래밍</td>
+            <td>Java 프로그래밍</td>
+        </tr>
+        <tr>
+            <td>6교시</td>
+            <td>Java 프로그래밍</td>
+            <td>Java 프로그래밍</td>
+            <td>Java 프로그래밍</td>
+            <td>Java 프로그래밍</td>
+            <td>Java 프로그래밍</td>
+            <td>Java 프로그래밍</td>
+        </tr>
+        <tr>
+            <td>7교시</td>
+            <td>Java 프로그래밍</td>
+            <td>Java 프로그래밍</td>
+            <td>Java 프로그래밍</td>
+            <td>Java 프로그래밍</td>
+            <td>Java 프로그래밍</td>
+            <td>Java 프로그래밍</td>
+        </tr>
+        <tr>
+            <td>8교시</td>
+            <td>Java 프로그래밍</td>
+            <td>Java 프로그래밍</td>
+            <td>Java 프로그래밍</td>
+            <td>Java 프로그래밍</td>
+            <td>Java 프로그래밍</td>
+            <td>Java 프로그래밍</td>
+        </tr>
+        
+        
+    </table>
+</body>
+</html>

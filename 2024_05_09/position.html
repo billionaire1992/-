@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css 레이아웃</title>
+    <style>
+        body{
+            height: 5000px;
+        }
+
+        .box {
+            background-color: lightgray;
+            padding: 1rem;
+            border: 1px solid gray;
+        }
+        #static { 
+            position: static;
+            top:100px;
+            left:100px;
+        }
+
+        #relative{
+            position: relative;
+            width: 500px;
+            height: 500px;
+            top:100px;
+            left:100px;
+        }
+        #absolute{
+            position: absolute;
+            top:0px;
+            left:0px;
+        }
+
+        #fixed {
+            position: fixed;
+            border-radius: 50%;
+            right: 0;
+            bottom :50;
+        }
+
+        #sticky{
+            position: sticky;
+            width: 100vw; /* veiwport width : 뷰 포트 폭을 지정하는 단위 , 
+            뷰 포트를 100조각이 100%인데 100조각을 다 쓰겠다는 뜻. 
+            (100칸을 다 쓰겠다는 뜻, 퍼센트 개념으로 이해하면 쉬움)*/
+            top: 100px;
+        }
+
+
+        </style>
+</head>
+<body>
+    <h1>포지셔닝</h1>
+    <p>웹 요소(ex.텍스트,이미지,..)의 위치를 지정하는 css 레이아웃 기법 중 하나</p>
+    <p>static , relative , absolute , fixed, sticky 속성이 있다.</p>
+    <p>static 속성을 제외하고 나머지는 top , right , bottom, left 속성을 지정할 수 있다.</p>
+    
+        <p id="static"  class="box">static  box</p>
+        <p id="relative" class="box">relative  box ,
+             <p id="absolute" class="box">absolute box</p>
+        </p>
+        
+        <p id="fixed" class="box">픽스드채팅상담</p>
+        <p id="sticky" class="box"> sticky  box</p>
+    
+
+
+</body>
+</html>
