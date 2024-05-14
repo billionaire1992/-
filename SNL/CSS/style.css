@@ -9,6 +9,39 @@
     box-sizing: border-box;
 }
 
+/*--------------header top-------------------*/
+
+.container{
+    border-bottom: 1px solid gray;
+    margin-bottom: 50px;
+}
+
+.items-center{
+    align-items: center;
+}
+
+#header_top{
+    margin: 0 auto;
+    max-width: 1440px ;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+
+.gap-1{
+    gap: 1rem;
+}
+.gap-2{
+    gap: 2rem;
+}
+
+
 .promotion{
     position: relative;
     /*background-color: orange;*/
@@ -32,7 +65,7 @@
 }
 
 html{
-    font-size: 20px; 1rem의 기준이 됩니다
+    font-size: 20px; 
 }
 
 .bland_logo{
@@ -115,3 +148,15 @@ th{
 
 
 
+.contents h2{
+    font-size: 20px; 
+    margin: 20px;
+} 
+
+.mx_auto{
+    margin: 0 auto;
+} 
+
+.w800{
+    max-width: 800px;
+}
