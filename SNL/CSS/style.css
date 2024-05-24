@@ -9,6 +9,55 @@
     box-sizing: border-box;
 }
 
+/* layout common */
+
+.d-flex{
+    display: flex;
+}
+
+.flex-1{
+    flex: 1;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.gap-1{
+    gap: 1rem;
+}
+.gap-2{
+    gap: 2rem;
+}
+
+.my-10{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.px-2{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.py-1{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.bg_blue{
+    background-color: blue;
+}
+.text-white{
+    color: white;
+}
+.rounded{
+    border-radius: 50%;
+}
+
+
 /*--------------header top-------------------*/
 
 .container{
@@ -23,22 +72,6 @@
 #header_top{
     margin: 0 auto;
     max-width: 1440px ;
-}
-
-.d-flex{
-    display: flex;
-}
-
-.justify-between{
-    justify-content: space-between;
-}
-
-
-.gap-1{
-    gap: 1rem;
-}
-.gap-2{
-    gap: 2rem;
 }
 
 
@@ -160,3 +193,52 @@ th{
 .w800{
     max-width: 800px;
 }
+
+/* 로그인 폼 */
+
+.article_title{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+legend{
+    /* font-size: 0px; */
+    /* display: none; */
+    position: absolute;
+    left: -1000px;
+}
+
+input{
+    border: 1px solid lightgray;
+}
+
+.w400{
+    max-width:  400px;
+}
+
+label{
+    width:100px;
+    /* background-color: orange; */
+}
+
+.border{
+    border: 1px solid blue;
+}
+
+.form_container{
+    max-width: 600px; /* ~599px 이하는, 100%로 동작*/
+    margin: 0 auto;
+}
+
+.border-1{
+    border-width: 1px;
+}
+
+.solid-gray{
+    border-color: gray;
+    border-style: solid;
+}
+
