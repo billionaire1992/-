@@ -1,1 +1,46 @@
 @charset "utf-8";
+
+html{
+    font-size : 20px;
+}
+
+body{
+    font-family:"Maven Pro", "Noto Sans KR", sans-serif;
+    font-size: .7rem;
+    font-weight: 400;
+    font-variant: normal;
+    line-height:1.5;
+}
+
+/* site main */
+.bg-hero{
+    background: url("../images/visual_bg.jpg") no-repeat center / cover;
+    min-height: 950px;
+}
+.float-header{
+    width: 1320px;
+    left:50%;
+    transform: translateX(-50%);
+    z-index: 200;
+} 
+.slogan-text{
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+
+.gap-10{
+    gap:10rem;
+}
+.bg-wave{
+    background: url(../images/system_bg.jpg) no-repeat center / cover;
+}
+.bg-water{
+    background-color: #1e598c;
+}
+.eng-title{
+    padding-top: 3px;
+}
+.bg-bubble{
+    background: url(../images/product_bg.gif) no-repeat center / cover;
+}
