@@ -15,12 +15,36 @@
 
 </head>
 <body>
+    <div id="side" class="position-fixed">
+        <div class="side_logo d-flex justify-content-center align-items-center py-3">
+            <img src="images/gnb_logo.png" alt="이미그룹">
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#" class="text-white text-decoration-none">회사소개</a>
+                </li>
+                <li>
+                    <a href="#" class="text-white text-decoration-none">기술/특허</a>
+                </li>
+                <li>
+                    <a href="#" class="text-white text-decoration-none">납품실적</a>
+                </li>
+                <li>
+                    <a href="#" class="text-white text-decoration-none">카탈로그</a>
+                </li>
+                <li>
+                    <a href="#" class="text-white text-decoration-none">고객센터</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
     <header class="float-header position-absolute py-3">
         <div class="container d-flex justify-content-between">
             <div class="site_logo">
                 <img src="images/logo.png" alt="이미그룹">
             </div>
-            <div class="site_menu">
+            <div class="site_menu" id="menu">
                 <a href="#">
                     <img src="images/btn_menu.png" alt="메뉴">
                 </a>
@@ -29,12 +53,14 @@
     </header>
     <section id="hero" class="bg-hero position-relative">
         <h2 class="d-none">이미그룹 슬로건</h2>
-        <div class="slogan_text position-absolute"><img src="images/slogan.png" alt="슬로건 텍스트"></div>
+        <div class="slogan_text position-absolute">
+            <img src="images/slogan.png" alt="슬로건 텍스트">
+        </div>
     </section>
-    </section>
+
     <main>
-        <article>
-            <div class="container-fluid bg-wave">
+        <article id="top">
+            <div class="container-fluid bg-wave py-4">
                 <h2 class="text-center py-4">물관리시스템</h2>
                 <!-- <hr class="mb-0"> -->
                 <p class="eng-title text-center border-top">
@@ -59,12 +85,42 @@
         <article>
             <div class="container-fluid py-4 bg-bubble">
                 <h2 class="text-center">판매제품</h2>
-                <h3>2015년 신제품 지능형 텔레모스시스템</h3>
-                <img src="images/product.png" alt="">
+                <h3 class="text-center">2015년 신제품 지능형 텔레모스시스템</h3>
+                <div class="product align-items-center d-flex flex-column w600 mx-auto">
+                    <img src="images/product.png" alt="">
+                    <button type="button" class="btn btn-outline-secondary rounded-pill fs-7  w120">자세히 보기</button>
+                </div>
             </div>
         </article>
     </main>
-    <aside></aside>
-    <footer></footer>
+    <aside class="bg-aside mt-3">
+        <div class="container mx-auto pt-8">
+            <p class="fs-6">(주)이미그룹</p>
+            <p class="fs-4">사람과 자연 모두가 행복한 세상,<br>이미가 만들어 가고자 하는 미래입니다.</p>
+        </div>
+    </aside>
+    <footer>
+        <div class="container">
+            <div class="footer_top d-flex justify-content-between align-items-center">
+                <a href="tel:82626700300" class="text-decoration-none text-dark">
+                    <img src="images/icon_call.png" alt="전화">
+                    062)370-0300</a>
+                <a href="#top">062)370-0300
+                    <img src="images/btn_top.gif" alt="맨위로">
+                </a>
+            </div>
+            <div class="footer_main text-center lh-lg">
+                <a href="#" class="mb-5">
+                    <img src="images/footer_logo.png" alt="이미그룹">
+                </a>
+                <p class="mt-3">
+                    (주) 이미그룹    대표이사 : 이미    본사 : 광주광역시 서구 쌍촌동 한울직업전문학교 4층 403호    연구소 : 광주광역시 서구 쌍촌동 한울직업전문학교 4층 403호 왼쪽 3번째줄 창가 2번째 자리
+                    고객센터 : 062-1234-5678      팩스 : 062-1234-5679      이메일 : already@hanmail.net</p>
+                <p>COPYRIGHT(C)  2012 DAEYOUNG.CO.LTD ALL RIGHTS RESERVED.</p>
+                
+            </div>
+        </div>
+    </footer>
+    <script src="script/main.js"></script>
 </body>
 </html>
